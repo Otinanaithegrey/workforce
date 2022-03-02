@@ -27,7 +27,7 @@ st.image(imgkenin, 'Alex Kenin')
 st.markdown('## Communications Manager')
 st.image(imgapo, "Apostolos 'Tsitsidad' Tsitsipas")
 st.markdown('\n## Workforce\n### Supervisor')
-st.image(sasimage, 'Sasnovic Aliaksandra')
+st.image(sasimage, 'Sasnovich Aliaksandra')
 st.markdown('### Workers')
 sasimage2 = st.image([imgerrani, imgfried, imagebus], ['Errani Sara','Friedsam Anna-Lena', 'Bucsa Cristina'])
 
