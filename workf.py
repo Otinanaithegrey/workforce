@@ -18,9 +18,8 @@ imgkenin = imgkenin.resize((180, 180))
 imgapo = Image.open('apo.jpg')
 imgapo = imgapo.resize((180, 180))
 
-
-  if st.sidebar.button("Home"):
-    st.image('ten_fact.jpg')
+if st.sidebar.button("Home"):
+  st.image('ten_fact.jpg')
     
 
 if st.sidebar.button("Personnel"):
