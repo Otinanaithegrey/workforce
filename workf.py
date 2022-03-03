@@ -18,8 +18,8 @@ imgkenin = imgkenin.resize((180, 180))
 imgapo = Image.open('apo.jpg')
 imgapo = imgapo.resize((180, 180))
 
-home = st.sidebar.button("Home")
-  if home:
+
+  if st.sidebar.button("Home"):
     st.image('ten_fact.jpg')
     
 
