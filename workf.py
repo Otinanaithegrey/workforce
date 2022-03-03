@@ -19,6 +19,8 @@ imgapo = Image.open('apo.jpg')
 imgapo = imgapo.resize((180, 180))
 
 
+@st.cache
+
 if st.sidebar.button("Home"):
   st.image('ten_fact.jpg')
 else:
