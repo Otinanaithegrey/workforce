@@ -34,8 +34,8 @@ if st.sidebar.button("Personnel"):
   st.image(sasimage, 'Sasnovich Aliaksandra')
   st.markdown('### Workers')
   sasimage2 = st.image([imgerrani, imgfried, imagebus], ['Errani Sara','Friedsam Anna-Lena', 'Bucsa Cristina'])
-else:
-  st.image('ten_fact.jpg')
+  else:
+    st.image('ten_fact.jpg')
 
   
   
