@@ -18,7 +18,7 @@ imgkenin = imgkenin.resize((180, 180))
 imgapo = Image.open('apo.jpg')
 imgapo = imgapo.resize((180, 180))
 
-if st.button("hello"):
+if st.siderbar.button("hello"):
   st.write('hello')
   
 workdf = f'# WTA Factory\n ## Owner'
