@@ -18,18 +18,16 @@ imgkenin = imgkenin.resize((180, 180))
 imgapo = Image.open('apo.jpg')
 imgapo = imgapo.resize((180, 180))
 
-if st.sidebar.button("hello"):
-  st.write('hello')
-  
-workdf = f'# WTA Factory\n ## Owner'
-st.markdown(workdf)
-st.image(imagepapa,"Sergio 'papa giorgi' Giorgi")
-st.markdown('## CEO')
-st.image(imgkenin, 'Alex Kenin')
-st.markdown('## Communications Manager')
-st.image(imgapo, "Apostolos 'Tsitsidad' Tsitsipas")
-st.markdown('\n## Workforce\n### Supervisor')
-st.image(sasimage, 'Sasnovich Aliaksandra')
-st.markdown('### Workers')
-sasimage2 = st.image([imgerrani, imgfried, imagebus], ['Errani Sara','Friedsam Anna-Lena', 'Bucsa Cristina'])
+if st.sidebar.button("Personnel"):
+  workdf = f'# WTA Factory\n ## Owner'
+  st.markdown(workdf)
+  st.image(imagepapa,"Sergio 'papa giorgi' Giorgi")
+  st.markdown('## CEO')
+  st.image(imgkenin, 'Alex Kenin')
+  st.markdown('## Communications Manager')
+  st.image(imgapo, "Apostolos 'Tsitsidad' Tsitsipas")
+  st.markdown('\n## Workforce\n### Supervisor')
+  st.image(sasimage, 'Sasnovich Aliaksandra')
+  st.markdown('### Workers')
+  sasimage2 = st.image([imgerrani, imgfried, imagebus], ['Errani Sara','Friedsam Anna-Lena', 'Bucsa Cristina'])
 
