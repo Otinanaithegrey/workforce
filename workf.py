@@ -19,6 +19,9 @@ imgapo = Image.open('apo.jpg')
 imgapo = imgapo.resize((180, 180))
 
 
+if st.sidebar.button("Home"):
+  st.image('ten_fact.jpg')
+  
 if st.sidebar.button("Personnel"):
   workdf = f'# WTA Factory\n ## Owner'
   st.markdown(workdf)
@@ -32,11 +35,8 @@ if st.sidebar.button("Personnel"):
   st.markdown('### Workers')
   sasimage2 = st.image([imgerrani, imgfried, imagebus], ['Errani Sara','Friedsam Anna-Lena', 'Bucsa Cristina'])
 else:
-  st.image('ten_fact.jpg')
-
-
-if st.sidebar.button("Home"):
-  st.image('ten_fact.jpg')
+  st.image('ten_fact.jpg')  
+  
     
 
 
