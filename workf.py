@@ -18,9 +18,8 @@ imgkenin = imgkenin.resize((180, 180))
 imgapo = Image.open('apo.jpg')
 imgapo = imgapo.resize((180, 180))
 
-eotm = st.checkbox("Employer of the Month")
-if eotm:
-  st.write("Employer of the Month")
+if st.button("hello"):
+  st.write('hello')
   
 workdf = f'# WTA Factory\n ## Owner'
 st.markdown(workdf)
